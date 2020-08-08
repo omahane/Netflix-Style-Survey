@@ -1,6 +1,6 @@
 <?php 
 require_once('./includes/connection.inc.php');
-// Netflix-style Sruvey
+// Netflix-style Survey
 if (isset($_GET['response'])&& !$_POST){
 	
 	// initialize flag
